@@ -1,0 +1,16 @@
+```css
+/* index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles (optional) */
+body {
+  @apply bg-white text-gray-800 font-sans;
+}
+
+a {
+  @apply text-blue-600 hover:underline;
+}
+```
